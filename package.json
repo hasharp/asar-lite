@@ -1,19 +1,19 @@
 {
   "main": "./lib/asar.js",
-  "name": "asar",
+  "name": "asar-lite",
   "description": "Creating atom-shell app packages",
   "version": "0.12.1",
   "bin": {
     "asar": "bin/asar"
   },
   "license": "MIT",
-  "homepage": "https://github.com/electron/asar",
+  "homepage": "https://github.com/vuf/asar-lite",
   "repository": {
     "type": "git",
-    "url": "https://github.com/electron/asar.git"
+    "url": "https://github.com/vuf/asar-lite.git"
   },
   "bugs": {
-    "url": "https://github.com/electron/asar/issues"
+    "url": "https://github.com/vuf/asar-lite/issues"
   },
   "scripts": {
     "prepublish": "grunt coffee",
