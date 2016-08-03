@@ -7,7 +7,6 @@ mkdirp = require 'mkdirp'
 Filesystem = require './filesystem'
 disk = require './disk'
 crawlFilesystem = require './crawlfs'
-createSnapshot = require './snapshot'
 
 # Return whether or not a directory should be excluded from packing due to
 # "--unpack-dir" option
@@ -112,10 +111,7 @@ module.exports.createPackageFromFiles = (src, dest, filenames, metadata, options
       return callback(error) if error
       disk.writeFilesystem dest, filesystem, files, metadata, (error) ->
         return callback(error) if error
-        if options.snapshot
-          createSnapshot src, dest, filenames, metadata, options, callback
-        else
-          callback null
+        callback null
 
   names = filenamesSorted.slice()
 
