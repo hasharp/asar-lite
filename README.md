@@ -1,8 +1,8 @@
 # asar - Electron Archive
 
-[![build status](http://img.shields.io/travis/electron/asar.svg?style=flat-square)](https://travis-ci.org/electron/asar)
-[![dependencies](http://img.shields.io/david/electron/asar.svg?style=flat-square)](https://david-dm.org/electron/asar)
-[![npm version](http://img.shields.io/npm/v/asar.svg?style=flat-square)](https://npmjs.org/package/asar)
+[![build status](http://img.shields.io/travis/vuf/asar-lite.svg?style=flat-square)](https://travis-ci.org/vuf/asar-lite)
+[![dependencies](http://img.shields.io/david/vuf/asar-lite.svg?style=flat-square)](https://david-dm.org/vuf/asar-lite)
+[![npm version](http://img.shields.io/npm/v/asar-lite.svg?style=flat-square)](https://npmjs.org/package/asar-lite)
 
 Asar is a simple extensive archive format, it works like `tar` that concatenates
 all files together without compression, while having random access support.
