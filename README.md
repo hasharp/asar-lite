@@ -1,6 +1,6 @@
 # asar - Electron Archive
 
-[![build status](https://img.shields.io/travis/vuf/asar-lite.svg?style=flat-square)](https://travis-ci.org/vuf/asar-lite)
+[![Travis build status](https://img.shields.io/travis/vuf/asar-lite.svg?style=flat-square)](https://travis-ci.org/vuf/asar-lite)
 [![dependencies](https://img.shields.io/david/vuf/asar-lite.svg?style=flat-square)](https://david-dm.org/vuf/asar-lite)
 [![npm version](https://img.shields.io/npm/v/asar-lite.svg?style=flat-square)](https://npmjs.org/package/asar-lite)
 
@@ -97,7 +97,7 @@ asar.createPackage(src, dest, function() {
 })
 ```
 
-Please note that there is currently *no* error handling provided!
+Please note that there is currently **no** error handling provided!
 
 ### Transform
 You can pass in a `transform` option, that is a function, which either returns

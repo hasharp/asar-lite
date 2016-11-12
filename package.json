@@ -1,8 +1,8 @@
 {
   "main": "./lib/asar.js",
   "name": "asar-lite",
-  "description": "Creating atom-shell app packages",
-  "version": "0.12.2",
+  "description": "Creating Electron app packages",
+  "version": "0.12.3",
   "bin": {
     "asar-lite": "bin/asar"
   },
@@ -22,11 +22,11 @@
     "clean": "grunt clean"
   },
   "dependencies": {
-    "chromium-pickle-js": "^0.1.0",
+    "chromium-pickle-js": "^0.2.0",
     "commander": "^2.9.0",
     "cuint": "^0.2.1",
     "glob": "^6.0.4",
-    "minimatch": "^3.0.0",
+    "minimatch": "^3.0.3",
     "mkdirp": "^0.5.0",
     "tmp": "0.0.28"
   },
